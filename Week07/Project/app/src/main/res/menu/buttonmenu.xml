@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="버튼 글자색 변경" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemBlack"
+            android:checked="true"
+            android:title="글자색 Black" />
+        <item
+            android:id="@+id/itemRed"
+            android:title="글자색 Red" />
+        <item
+            android:id="@+id/itemBlue"
+            android:title="글자색 Blue" />
+    </group>
+</menu>
