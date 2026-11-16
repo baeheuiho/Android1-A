@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Broadcast Receiver Mode 선택" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:checked="true"
+            android:title="Dynamic" />
+        <item
+            android:id="@+id/item2"
+            android:title="Static" />
+    </group>
+
+</menu>

@@ -19,10 +19,11 @@ public class MyMethod {
         String height = editText1.getText().toString();
         String weight = editText2.getText().toString();
 
-        if (height.isEmpty() || weight.isEmpty()) {
-            Toast.makeText(context, "값을 입력하세요", LENGTH_SHORT).show();
-        } else {
-            double height1 = Double.parseDouble(height) / 100;
+
+        if (height.isEmpty() || weight.isEmpty())
+            Toast.makeText(context, "sadasdas", LENGTH_SHORT).show();
+        else {
+            double height1 = Double.parseDouble(height);
             double weight1 = Double.parseDouble(weight);
             double result = weight1 / (height1 * height1);
 
